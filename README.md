@@ -257,6 +257,31 @@ For cross-agent guidance, prefer extending `skills/master-engineering-standards/
 
 For a quick start in any repo, inspect `PROJECT-BOOTSTRAP.md` first.
 
+## Knowledge sources behind these skills
+
+Skills in this repo are grounded in real-world software and product experience, supplemented by a curated book collection built up over years of engineering and product work.
+
+### Book collection (Google Drive)
+
+The personal book library that informed skill creation across algorithms, design, software craft, game theory, and product thinking:
+
+**[View book collection on Google Drive](https://drive.google.com/drive/folders/17c9DZ8fZLTO_YKArA-GOHn8QXaRYlvCt?usp=sharing)**
+
+Key books by skill domain:
+
+| Skill | Source books |
+|---|---|
+| `algorithms-data-structures` | *Introduction to Algorithms* (CLRS), *Data Structures & Algorithms in Java* (Goodrich & Tamassia) |
+| `clean-code-principles` | *Clean Code* (Robert C. Martin), *Software Engineering: A Practitioner's Approach* (Pressman) |
+| `domain-driven-design` | *Domain-Driven Design by Example* (Evans patterns) |
+| `game-design-principles` | *Art of Game Design* (Schell), *Theory of Fun* (Koster), *Designing Games* (Sylvester), *Game Design Workshop* (Fullerton) |
+| `javascript-patterns` | *JavaScript: The Good Parts* (Crockford), *Professional JS for Web Devs* (Zakas), *Programming JS Applications* (Elliott) |
+| `product-software-thinking` | *Design of Everyday Things* (Norman), *Theory of Fun* (Koster), *Design Sprint* (Banfield), *Laws of Simplicity* (Maeda) |
+| `ux-product-design` | *Design of Everyday Things* (Norman), *Laws of Simplicity* (Maeda), *Design Sprint* (Banfield), *Designing the User Interface* (Shneiderman) |
+| `software-patterns-architecture` | *Domain-Driven Design*, *Design Patterns* (GoF) |
+
+When a new skill is added from this collection, the source book(s) are listed in the skill's `description` frontmatter field.
+
 ## Automation limits
 
 This repo can automate review and promotion suggestions inside its own scripts and local UI, but it cannot force every future chat host to auto-run promotion logic on startup.

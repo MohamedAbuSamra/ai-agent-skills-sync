@@ -16,6 +16,8 @@ This file classifies skills by scope and location.
 - `master-engineering-standards`
 - `always-apply-standards`
 - `modern-development-practices`
+- `clean-code-principles` ← naming, functions, comments, error handling, testing (Martin/Pressman)
+- `product-software-thinking` ← validate before building, user goals drive tech decisions (cross-domain)
 - `testing-patterns`
 - `security-best-practices`
 - `typescript-best-practices`
@@ -25,13 +27,18 @@ This file classifies skills by scope and location.
 ## skills — conditional reusable (apply when domain matches)
 
 - `api-design-restful`
+- `algorithms-data-structures` ← complexity, sorting, graphs, DP, binary search (CLRS/Goodrich)
 - `async-concurrency`
 - `database-data-modeling`
 - `documentation-best-practices`
+- `domain-driven-design` ← bounded contexts, aggregates, value objects, domain events
 - `dry-solid-principles`
 - `error-handling-logging`
+- `game-design-principles` ← engagement loops, flow state, feedback systems (Schell/Koster/Sylvester)
+- `javascript-patterns` ← Good Parts, closures, modules, functional JS (Crockford/Zakas/Elliott)
 - `performance-optimization`
 - `software-patterns-architecture`
+- `ux-product-design` ← affordances, mental models, design sprints, usability (Norman/Maeda/Shneiderman)
 - `validation-input-sanitization`
 - `vue-frontend-patterns`
 
