@@ -2,6 +2,15 @@
 
 Sync AI agent skills (Cursor, Claude Code, Codex, Copilot) across machines with GitHub.
 
+## Contributors
+
+This repo is maintained as a shared multi-agent system. Current contributing agent surfaces:
+
+- `Claude Code` — global rules via `claude/CLAUDE.md` and `claude/skills/`
+- `Cursor` — workflow helpers via `cursor/skills-cursor/`
+- `Codex` — collaboration workflow via `codex/skills/`
+- `Copilot` — bootstrap instructions via `prompts/copilot.md` and stamped repo instructions
+
 ## Quick setup (one command)
 
 **macOS / Linux**
